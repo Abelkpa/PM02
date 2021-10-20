@@ -15,9 +15,7 @@ uses
   UnitOtchetClass in 'UnitOtchetClass.pas' {FormOtchetClass},
   UnitDays in 'UnitDays.pas' {FormDays},
   UnitRasp in 'UnitRasp.pas' {FormRasp},
-  UnitRaspAdd in 'UnitRaspAdd.pas' {FormRaspAdd},
-  login in 'login.pas' {Form1},
-  UnitPriem in 'UnitPriem.pas' {Form2};
+  UnitRaspAdd in 'UnitRaspAdd.pas' {FormRaspAdd};
 
 {$R *.res}
 
@@ -25,7 +23,5 @@ begin
   Application.Initialize;
   Application.CreateForm(Tformmain, formmain);
   Application.CreateForm(TDataBD, DataBD);
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.

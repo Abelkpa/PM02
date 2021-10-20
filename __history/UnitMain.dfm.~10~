@@ -112,7 +112,7 @@ object formmain: Tformmain
   end
   object GroupBox3: TGroupBox
     Left = 1109
-    Top = 229
+    Top = 248
     Width = 253
     Height = 124
     Caption = #1054#1090#1095#1077#1090#1099' '#1087#1086' '#1091#1089#1087#1077#1074#1072#1077#1084#1086#1089#1090#1080
@@ -120,7 +120,7 @@ object formmain: Tformmain
     object Button8: TButton
       Left = 38
       Top = 32
-      Width = 187
+      Width = 179
       Height = 25
       Caption = #1054#1090#1095#1077#1090' '#1087#1086' '#1091#1089#1087#1077#1074#1072#1077#1084#1086#1089#1090#1080' '#1089#1090#1091#1076#1077#1085#1090#1086#1074
       TabOrder = 0
@@ -129,8 +129,8 @@ object formmain: Tformmain
   end
   object Button9: TButton
     Left = 1147
-    Top = 304
-    Width = 187
+    Top = 328
+    Width = 179
     Height = 25
     Caption = #1054#1090#1095#1077#1090' '#1087#1086' '#1091#1089#1087#1077#1074#1072#1077#1084#1086#1089#1090#1080' '#1075#1088#1091#1087#1087#1099
     TabOrder = 3
