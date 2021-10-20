@@ -21,7 +21,6 @@ type
     Button9: TButton;
     Button10: TButton;
     logg: TLabel;
-    Button7: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -43,8 +42,7 @@ var
 implementation
 
 uses UnitBD, UnitUchitel, UnitClass, UnitUcheniki, UnitKab, UnitPredmet,
-  UnitOcenki, UnitOcenkaAdd, UnitOtchetUch, UnitOtchetClass, UnitRasp, login,
-  UnitPriem;
+  UnitOcenki, UnitOcenkaAdd, UnitOtchetUch, UnitOtchetClass, UnitRasp, login;
 
 {$R *.dfm}
 
@@ -85,9 +83,9 @@ end;
 
 procedure Tformmain.Button7Click(Sender: TObject);
 begin
-dataBD.ADOPriem.Close;
-dataBD.ADOPriem.Open  ;
-Application.CreateForm(Tform2, form2);
+dataBD.ADOOtchetUchenik.Close;
+dataBD.ADOOtchetUchenik.Open  ;
+Application.CreateForm(TFormOtchetUch, FormOtchetUch);
 end;
 
 procedure Tformmain.Button9Click(Sender: TObject);

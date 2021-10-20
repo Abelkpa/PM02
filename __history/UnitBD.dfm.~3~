@@ -727,8 +727,8 @@ object DataBD: TDataBD
     Connection = ADOSchool
     DataSource = DataSource1
     Parameters = <>
-    Left = 520
-    Top = 160
+    Left = 680
+    Top = 168
   end
   object DataSource1: TDataSource
     DataSet = ADOTable1
@@ -740,7 +740,7 @@ object DataBD: TDataBD
     Connection = ADOSchool
     CursorType = ctStatic
     TableName = 'login'
-    Left = 552
+    Left = 568
     Top = 200
     object ADOTable1id_log: TAutoIncField
       FieldName = 'id_log'
@@ -755,46 +755,6 @@ object DataBD: TDataBD
       DisplayWidth = 10
       FieldName = 'pass'
       Size = 50
-    end
-  end
-  object DataPriem: TDataSource
-    DataSet = ADOPriem
-    Left = 672
-    Top = 152
-  end
-  object ADOPriem: TADOTable
-    Active = True
-    Connection = ADOSchool
-    CursorType = ctStatic
-    TableName = 'priem'
-    Left = 672
-    Top = 224
-    object ADOPriemid_priem: TAutoIncField
-      DisplayLabel = #1053#1086#1084#1077#1088' '#1076#1086#1075#1086#1074#1086#1088#1072
-      FieldName = 'id_priem'
-      ReadOnly = True
-    end
-    object ADOPriemfam: TStringField
-      DisplayLabel = #1060#1072#1084#1080#1083#1080#1103
-      DisplayWidth = 15
-      FieldName = 'fam'
-      Size = 50
-    end
-    object ADOPriemname: TStringField
-      DisplayLabel = #1048#1084#1103
-      DisplayWidth = 15
-      FieldName = 'name'
-      Size = 50
-    end
-    object ADOPriemotch: TStringField
-      DisplayLabel = #1054#1090#1095#1077#1089#1090#1074#1086
-      DisplayWidth = 15
-      FieldName = 'otch'
-      Size = 50
-    end
-    object ADOPriemid_class: TIntegerField
-      DisplayLabel = #1043#1088#1091#1087#1087#1072
-      FieldName = 'id_class'
     end
   end
 end

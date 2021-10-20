@@ -138,13 +138,6 @@ type
     ADOTable1id_log: TAutoIncField;
     ADOTable1login: TStringField;
     ADOTable1pass: TStringField;
-    DataPriem: TDataSource;
-    ADOPriem: TADOTable;
-    ADOPriemid_priem: TAutoIncField;
-    ADOPriemfam: TStringField;
-    ADOPriemname: TStringField;
-    ADOPriemotch: TStringField;
-    ADOPriemid_class: TIntegerField;
   private
     { Private declarations }
   public
