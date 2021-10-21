@@ -92,11 +92,11 @@ object formmain: Tformmain
       OnClick = Button5Click
     end
     object Button7: TButton
-      Left = 3
+      Left = 48
       Top = 504
-      Width = 243
+      Width = 158
       Height = 25
-      Caption = #1055#1088#1080#1105#1084#1085#1072#1103' '#1082#1086#1084#1080#1089#1089#1080#1103
+      Caption = #1054#1090#1076#1077#1083' '#1082#1072#1076#1088#1086#1074
       TabOrder = 5
       OnClick = Button7Click
     end
